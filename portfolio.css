@@ -168,7 +168,7 @@ p{
     border-radius: 5px;
     font-weight: 300;
 }
-.projects-box button{
+.projects-box a{
     width: 200px;
     margin-top: 20px;
     background-color: #5700FF;
@@ -179,6 +179,8 @@ p{
     padding: 10px;
     color: #FCFAFF;
     margin-bottom: 50px;
+    text-align: center;
+    text-decoration: none;
 }
 .space{
     /* margin-bottom: 50px; */
