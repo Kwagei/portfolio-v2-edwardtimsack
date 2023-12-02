@@ -141,7 +141,59 @@ p{
     justify-content: space-evenly;
     padding: 20px;
 }
-.milestone{
+.milestones-box{
+    display: flex;
+    flex-direction: column;
+}
+.milestones-box h1{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.milestones-box p{
+margin-bottom: 40px;
+}
+.milestone-name h3{
+    background-color: #FCFAFF;
+    padding: 10px;
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    font-weight: 300;
+}
+.milestone-name1 h3{
+    background-color: #FCFAFF;
+    padding: 10px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.milestone-card{
+    background-color: #FCFAFF;
+    height: 200px;
+    margin-top: 20px;
+    padding: 20px;
+
+} 
+/* .milestone-vertical-bar{
+    margin-top: 20px;
+    background-color: rgb(85, 75, 219);
+    background-color: #7833FF;
+    width: ;
+
+} */
+/* .milestone-container{
+    display: flex;
+    flex-direction: column;
+}
+.milestone-vertical-bar{
+    font-size: 40px;
+} */
+/* .milestone{
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
@@ -150,7 +202,7 @@ p{
     font: 300;
     font-size: 25px;
     margin-bottom: 10px;
-}
+} */
 .developer-about{
     text-align: center;
     border-top: 1px solid rgb(204, 198, 198);

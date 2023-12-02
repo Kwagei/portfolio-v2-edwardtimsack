@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 body{
     background-color: #EEEBE5;
@@ -52,7 +52,7 @@ a{
     border: none;
     border-radius: 5px;
 }
-.menu img{
+.menu i{
     height: 30px;
 }
 nav{
@@ -78,10 +78,12 @@ nav{
     font-weight: 500;
 }
 .message{
-    margin-bottom: 10px; 
+    margin-bottom: 8px;
+    font-weight: 500;
 }
 .greeting{
     background-color: #FCFAFF;
+    color: black;
     display: flex;
     padding: 10px;
     justify-content: center;
@@ -107,6 +109,7 @@ nav{
     font-size: 18px;
 }
 .book-call button{
+    width: 120px;
     padding: 8px;
     background-color: rgb(85, 75, 219);
     background-color: #5700FF;
@@ -118,6 +121,16 @@ nav{
 .book-call p{
     margin-top: 5px;
     font-size: 13px;
+    color: #000;
+}
+.book-call span{
+    font-size: 20px;
+}
+.ri-phone-fill{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+
 }
 .diagram{
     display: grid;
@@ -183,35 +196,43 @@ nav{
 .my-works p
 {
     color: #4e4c4c;
-    font-size: 13px;
+    font-size: 14px;
 
 }
-.creative-skills h1, 
+
 .web-design h1,
 .user-interface h1,
 .user-experience h1,
 .responsive-web h1,
 .wireframing h1,
 .mobile-friendly h1,
-.benefits h1,
-.customized-designs h1,
 .creative-excellence h1,
 .user-centric h1,
 .mobile-designs h1,
-.expertise h1,
-.my-works h1{
-    font-size: 15px;
+.expertise h1
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.skill{
+    font-weight: 600;
+    font-size: 29px;
+}
+.advantage{
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .title{
     font-size: 22px;
-    font-weight: 500;
+    font-weight:600;
 }
 .web-design{
     margin-bottom: 25px;
     background-color: #F5F0FF;
     padding: 15px;
-    height: 210px;
+    height: 235px;
     border-radius: 5px;
     background-color: #FCFAFF;
 } 
@@ -220,7 +241,7 @@ nav{
     background-color: #F5F0FF;
     background-color: #FCFAFF;
     padding: 15px;
-    height: 210px;
+    height: 235px;
     border-radius: 5px;
 }
 .user-experience{
@@ -228,7 +249,7 @@ nav{
     background-color: #F5F0FF;
     background-color: #FCFAFF;
     padding: 15px;
-    height: 210px;
+    height: 235px;
     border-radius: 5px;
 }
 .icon{
@@ -249,7 +270,7 @@ nav{
     background-color: #F5F0FF;
     background-color: #FCFAFF;
     padding: 15px;
-    height: 210px;
+    height: 235px;
     border-radius: 5px;
 }
 .wireframing{
@@ -257,7 +278,7 @@ nav{
     background-color: #F5F0FF;
     background-color: #FCFAFF;
     padding: 15px;
-    height: 210px;
+    height: 235px;
     border-radius: 5px;
 }
 .mobile-friendly
@@ -267,7 +288,7 @@ nav{
     background-color: #F5F0FF;
     background-color: #FCFAFF;
     padding: 15px;
-    height: 210px;
+    height: 235px;
     border-radius: 5px;
 }
 
@@ -278,7 +299,7 @@ nav{
     background-color:rgb(240, 238, 238);
     background-color: #F5F0FF;
     background-color: #FCFAFF;
-    height: 355px;
+    height: 325px;
     border-radius: 5px;
     margin-bottom: 25px;
     text-align: left;
@@ -289,8 +310,8 @@ nav{
 .user-centric h1,
 .mobile-designs h1,
 .expertise h1{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     border-bottom: 1px solid rgb(204, 198, 198);
     padding: 15px;
     font-size: 15px;
@@ -308,7 +329,7 @@ nav{
     background-color: #F5F0FF;
     background-color: #FCFAFF;
 
-    height: 375px;
+    height: 325px;
     border-radius: 5px;
     margin-bottom: 25px;
     text-align: left;
@@ -318,7 +339,7 @@ nav{
     background-color:rgb(240, 238, 238);
     background-color: #F5F0FF;
     background-color: #FCFAFF;
-    height: 360px;
+    height: 325px;
     border-radius: 5px;
     margin-bottom: 25px;
     text-align: left;
@@ -326,7 +347,7 @@ nav{
 }
 .mobile-designs{
     background-color: #FCFAFF;
-    height: 380px;
+    height: 325px;
     border-radius: 5px;
     margin-bottom: 25px;
     text-align: left;
@@ -334,7 +355,7 @@ nav{
 }
 .expertise{
     background-color: #FCFAFF;
-    height: 350px;
+    height: 325px;
     border-radius: 5px;
     margin-bottom: 45px;
     text-align: left;
@@ -383,6 +404,9 @@ nav{
 .frequently-asked{
     margin-bottom: 55px;
 
+}
+.frequently-asked h1{
+    font-weight: 600;
 }
 .questions{
     background-color: #EEEBE5;
@@ -548,7 +572,7 @@ nav{
     justify-content: space-evenly;
     padding: 15px;
     font-size: 14px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
 }
 p{
     color: #808080;

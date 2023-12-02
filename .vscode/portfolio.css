@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    background-color: #EEEBE5;
+    font-family: 'Manrope';
+}
+.wrapper{
+    /* height: 600px; */
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: block;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(243, 243, 243, 0.432);
+    height: 70px;
+    border-bottom: 1px solid rgb(204, 198, 198);
+    align-items: center;
+    text-align: center;
+}
+.menu i{
+    font-size: 30px;
+}
+.user-name,
+ .navigation{
+    padding: 20px;
+}
+.user-name h1{
+    font-weight: 500;
+    font-size: 20px;
+    color: #7833FF;
+}
+.user-name{
+    height: 70px;
+}
+.portfolio-box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.my-creatives{
+    display: flex;
+    flex-direction: column;
+    background-color: #FCFAFF;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+
+}
+.icon{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+    background-color: #7833FF;
+    background-color: #5700FF;
+    
+    /* background-color: #9A66FF; */
+    border-radius: 6px;
+    padding: 8px;
+    color: #FCFAFF;
+    /* background-color: #7833FF; */
+
+}
+.icon i{
+    font-size: 30px;
+    color: #FCFAFF;
+    background-color: #7833FF;
+    background-color: #5700FF;
+
+    padding: 10px;
+
+}
+.my-creatives h1{
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+p{
+    color: #808080;
+    font-size: 13px;
+}
+.my-know-about{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+}
+.my-know-about i{
+    color: #9A66FF;
+    color: #5700FF;
+
+    font-size: 20px;
+}
+.my-know-about p{
+    font-size: 15px;
+    color: #000;
+}
+.completed-projects,
+.happy-customers,
+.years-of-experience{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid #EEECEB;
+    padding: 10px;
+    width: 250px;
+    border-radius: 9px;
+   justify-content: center;
+}
+.projects-box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+
+}
+.project2023,
+.project2022,
+.project2021 
+{
+    /* margin-top: 40px; */
+    display: flex;
+    flex-direction: column;
+
+}
+.project2023 h1,
+.project2022 h1,
+.project2021 h1{
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    padding: 25px;
+    border-bottom: 1px solid rgb(204, 198, 198);
+
+}
+.project{
+    height: 400px;
+    background-color: #FCFAFF;
+    border-radius: 10px;
+    margin-top: 25px;
+
+}
+.project-navigation{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 25px;
+}
+.project-navigation i{
+    background-color: #FCFAFF;
+    font-size: 30px;
+    border-radius: 5px;
+    font-weight: 300;
+}
+.projects-box button{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #5700FF;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: #FCFAFF;
+    margin-bottom: 50px;
+}
+.space{
+    /* margin-bottom: 50px; */
+    border-bottom: 1px solid rgb(204, 198, 198);
+    
+}
+.about-me{
+    display: flex;
+    flex-direction: column;
+    /* border-top: 1px solid rgb(204, 198, 198); */
+    padding: 20px;
+    text-align: center;
+}
+.about-me h2{
+    color: #5700FF;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    /* justify-content: space-between; */
+    gap: 15px;
+}
+.nav i{
+    color: #FCFAFF;
+    font-size: 20px;
+}
+.linkin,
+.twitter,
+.web{
+    background-color: #9A66FF;
+    
+    padding: 6px;
+    border-radius: 6px;
+
+}
+.pages{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 30px;
+}
+.pages a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+    font-weight: 400;
+
+}
+footer{
+    margin-top: 40px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
